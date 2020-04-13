@@ -84,7 +84,7 @@ export default function Contact() {
 				<div class="overlay"></div>
 			</div>
 			<div class="choose animate-box">
-				<h2>Contact</h2>
+				<h2>Contato</h2>
 				<form action="#" onSubmit={sendMail}>
 					<div class="row form-group">
 						<div class="col-md-6">
