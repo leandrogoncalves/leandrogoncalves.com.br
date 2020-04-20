@@ -1,10 +1,13 @@
 import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Mail from '../_services/mail.js';
 import ReCAPTCHA from "react-google-recaptcha";
-
+import api from '../_services/api';
+const dotenv = require('dotenv');
+dotenv.config();
+const baseURL = process.env.BACKEND_URL || 'https://leandrogoncalves-backend.herokuapp.com';
 
 export default function Contact() {
+	console.log(baseURL);
 	
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
@@ -46,33 +49,27 @@ export default function Contact() {
 			Mensagem: ${message}
 		`,
 		html: `
-			<strong> Nome:</strong> ${name}
-			<strong> email:</strong> ${email}
-			<strong> Assunto:</strong> ${subject}
-			<strong> Mensagem:</strong> ${message}
+			<strong> Nome:</strong> ${name} <br>
+			<strong> email:</strong> ${email} <br>
+			<strong> Assunto:</strong> ${subject} <br>
+			<strong> Mensagem:</strong> ${message} <br>
 		`
 		};
 
 		
 		try{
-			//SENDGRID
-			let response = Mail.send(mailOptions);
-			//OTHER
-			// transporter.sendMail(mailOptions, function(error, info){
-			//MAIL GUN
-			// transporter.messages().send(mailOptions, function(error, info){
-			if (response) {
-				console.log(response);
-			} else {
-				console.log('Email enviado: ' + response);
-			}
-			// });
-
+			api.post(baseURL+'/email/send',mailOptions)
+				.then((res)=>{
+					console.log(res);
+					alert('Email enviado com sucesso');
+				}).catch((err)=>{
+					console.error(err);
+					alert('Ocorreu um erro ao enviar o e-mail, por favor tente novamente mais tarde, obrigado!');
+				})
 		}catch(error){
 			console.error(error);
 		}
 		
-		alert('Email enviado com sucesso');
 	
 	}
 	
