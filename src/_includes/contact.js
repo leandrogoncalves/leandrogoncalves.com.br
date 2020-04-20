@@ -1,13 +1,17 @@
 import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Mail from '../_services/mail.js';
+import ReCAPTCHA from "react-google-recaptcha";
+
+const RECAPTCHA_PUBLIC = process.env.RECAPTCHA_PUBLIC;
+
 
 export default function Contact() {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [subject, setSubject] = useState('');
 	const [message, setMessage] = useState('');
-
+	const recaptchaRef = React.createRef();
 
 	function sendMail (e){
 		e.preventDefault();
@@ -96,6 +100,11 @@ export default function Contact() {
 			<div class="choose animate-box">
 				<h2>Contato</h2>
 				<form action="#" onSubmit={sendMail}>
+				<ReCAPTCHA
+				ref={recaptchaRef}
+				size="invisible"
+				sitekey={RECAPTCHA_PUBLIC}
+				/>
 					<div class="row form-group">
 						<div class="col-md-6">
 							<input 
