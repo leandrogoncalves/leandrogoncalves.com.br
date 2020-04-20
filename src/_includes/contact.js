@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import transporter from '../_services/mail.js';
+import Mail from '../_services/mail.js';
 
 export default function Contact() {
 	const [name, setName] = useState('');
@@ -41,19 +41,29 @@ export default function Contact() {
 			email: ${email}
 			Assunto: ${subject}
 			Mensagem: ${message}
+		`,
+		html: `
+			<strong> Nome:</strong> ${name}
+			<strong> email:</strong> ${email}
+			<strong> Assunto:</strong> ${subject}
+			<strong> Mensagem:</strong> ${message}
 		`
 		};
 
-		  
+		
 		try{
+			//SENDGRID
+			let response = Mail.send(mailOptions);
+			//OTHER
 			// transporter.sendMail(mailOptions, function(error, info){
-			transporter.messages().send(mailOptions, function(error, info){
-			if (error) {
-				console.log(error);
+			//MAIL GUN
+			// transporter.messages().send(mailOptions, function(error, info){
+			if (response) {
+				console.log(response);
 			} else {
-				console.log('Email enviado: ' + info);
+				console.log('Email enviado: ' + response);
 			}
-			});
+			// });
 
 		}catch(error){
 			console.error(error);
