@@ -1,6 +1,7 @@
 const mailgun = require("mailgun-js");
 const DOMAIN = "sandbox9061ea8cf5024a52b1db0a5d274e6cc1.mailgun.org";
-const transporter = mailgun({apiKey: "2283301a026d2ba0a6e7f9ac7a4381c6-aa4b0867-b6670067", domain: DOMAIN});
+const API_KEY = process.env.API_KEY;
+const transporter = mailgun({apiKey: API_KEY, domain: DOMAIN});
 
 // const nodemailer = require('nodemailer');
 
