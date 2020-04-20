@@ -1,23 +1,43 @@
 import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import ReCAPTCHA from "react-google-recaptcha";
+import Recaptcha from 'react-google-invisible-recaptcha';
 import api from '../_services/api';
 const dotenv = require('dotenv');
 dotenv.config();
 const baseURL = process.env.BACKEND_URL || 'https://leandrogoncalves-backend.herokuapp.com';
 
 export default function Contact() {
-	console.log(baseURL);
+	let recaptchaInstance;
 	
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [subject, setSubject] = useState('');
 	const [message, setMessage] = useState('');
-	const recaptchaRef = React.createRef();
+	const [canSend, setCanSend] = useState(false);
 
-	function sendMail (e){
+	  
+
+
+	function clearForm() {
+		setName('');
+		setEmail('');
+		setSubject('');
+		setMessage('');
+	}
+
+	function submit(e){
 		e.preventDefault();
+		recaptchaInstance.execute()
+		.then((token)=>{
+			if (token) {
+				sendMail();
+			}
+		});
 
+	}
+
+	function sendMail(){
+		
 		if (!name) {
 			alert("Por favor preencha o nome");
 			return;
@@ -37,6 +57,7 @@ export default function Contact() {
 			alert("Por favor preencha a mensagem");
 			return;
 		}
+
 
 		let mailOptions = {
 		from: 'no-reply@leandrogoncalves.com.br',
@@ -61,6 +82,7 @@ export default function Contact() {
 			api.post(baseURL+'/email/send',mailOptions)
 				.then((res)=>{
 					console.log(res);
+					clearForm();
 					alert('Email enviado com sucesso');
 				}).catch((err)=>{
 					console.error(err);
@@ -95,12 +117,7 @@ export default function Contact() {
 			</div>
 			<div className="choose animate-box">
 				<h2>Contato</h2>
-				<form action="#" onSubmit={sendMail}>
-				<ReCAPTCHA
-				ref={recaptchaRef}
-				size="invisible"
-				sitekey="6LeX6usUAAAAACbK5ails8NbbZ55E69_hCeAdB2W"
-				/>
+				<form action="#" onSubmit={submit}>
 					<div className="row form-group">
 						<div className="col-md-6">
 							<input 
@@ -144,6 +161,11 @@ export default function Contact() {
 					<div className="form-group">
 						<input type="submit" value="Enviar" className="btn btn-primary" />
 					</div>
+
+					<Recaptcha
+                        ref={ ref => recaptchaInstance = ref }
+                        sitekey="6LflAuwUAAAAABDqgMf1F2ezXDPoVYNQILDz0PdY"
+                    />
 
 				</form>	
 			</div>
