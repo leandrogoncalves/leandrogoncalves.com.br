@@ -16,19 +16,19 @@
             "fde": {
                 "h3":"Systems Analist and Developer",
                 "span":"FDE - 2019-08 - Current",
-                "content":"<p> At FDE, you can also analyze as a programmer with an emphasis on back-end Web applications in PHP and Mobile with React Native. I participate in the <strong> Integra </strong> project (<a href='http://integra.fde.sp.gov.br' target='_blank'> http://integra.fde.sp.gov.br </a>) which is part of FDE's internal management tools </p> <p> Technologies: PHP, Laravel, Docker, Linux, React Native, NodeJs, HTML, CSS, Javascript, Bootstrap, Postgres, Sql Server, REST, LDAP, TFS, GIT </p>"
+                "content":"<p> The FDE is a foundation linked to education mistery education of the São Paulo state. At FDE I have been working with development and architecture for web in general mainly in back-end development of web project “Integra”, which is part of FDE’s internal management tools. (<a href='http://integra.fde.sp.gov.br' target='_blank'> http://integra.fde.sp.gov.br </a>) </p> <p> Technologies: PHP, Laravel, Docker, Linux, React Native, NodeJs, HTML, CSS, Javascript, Bootstrap, Postgres, Sql Server, REST, LDAP, TFS, GIT </p>"
             },
 
             "interaktiv": {
                 "h3":"Fullstack developer",
                 "span":"Interaktiv - 2018-11 - 2019-07",
-                "content":"<p> At Interaktiv I got contact with software for the hospital area, such as the Philips TASY system used by the Oswaldo Cruz hospital. In this agency I participated in the projects: <strong> SABES (<a href=\"https://sabes.org.br/\" target=\"_blank\"> https://sabes.org.br </a>), Self-care Toten, Nursing Assessment and Pre-anesthetic Assessment </strong> </p> <p> Technologies: PHP, Laravel, Docker, Linux, Electron, NodeJs, HTML, CSS, Javascript, Bootstrap, Oracle 12C, Mysql, REST, JWT, TASY, GIT </p>"
+                "content":"<p> At Interaktiv I got contact with software of the hospital area, like the Philips TASY system used by the Oswaldo Cruz hospital. In this agency I participated in the projects: <strong> SABES (<a href=\"https://sabes.org.br/\" target=\"_blank\"> https://sabes.org.br </a>), Self-care Toten, Nursing Assessment and Pre-anesthetic Assessment </strong> </p> <p> Technologies: PHP, Laravel, Docker, Linux, Electron, NodeJs, HTML, CSS, Javascript, Bootstrap, Oracle 12C, Mysql, REST, JWT, TASY, GIT </p>"
             },
 
             "knov": {
                 "h3":"It Consultant and back-end developer",
                 "span":"Knov - 2018-05 - 2018-11",
-                "content":"<p> Together with the Knov company I participated in the <strong> SigMe </strong> project (<a href=\"http://sigme.com.br\" target=\"_blank\"> http: // sigme .com.br </a>) which consists of a web vehicle tracking system written in PHP </p> <p> Technologies: PHP, Laravel, Linux, VueJs, HTML, CSS, Javascript, Bootstrap, Mysql, Firebase , Socket IO, REST, JWT, GIT </p>"
+                "content":"<p> Together with the Knov company I participated of the <strong> SigMe </strong> project (<a href=\"http://sigme.com.br\" target=\"_blank\"> http: // sigme .com.br </a>) which consists of a web vehicle tracking system written in PHP </p> <p> Technologies: PHP, Laravel, Linux, VueJs, HTML, CSS, Javascript, Bootstrap, Mysql, Firebase , Socket IO, REST, JWT, GIT </p>"
             },
 
             "psychemedics": {
@@ -46,7 +46,7 @@
             "mds": {
                 "h3":"Jr. System Analist",
                 "span":"MDS Insure - 2015-03 - 2015-12",
-                "content":"<p> At the insurance broker MDS Insure I worked with programming and systems maintenance in C # and PHP (Wordpress). The project that stood out the most was the internal portal developed for international insurance policies in .NET and also the Intranet project using Wordpress. </p> <p> Technologies: PHP, C #, .NET MVC, Entity Framework, Wordpress, Windows, HTML, CSS, Javascript, Bootstrap, Mysql, SOAP, GIT </p>"
+                "content":"<p> At the insurance broker MDS Insure I worked with programming and systems maintenance in C# and PHP (Wordpress). The project that stood out the most was the internal portal developed for international insurance policies in .NET and also the Intranet project using Wordpress. </p> <p> Technologies: PHP, C #, .NET MVC, Entity Framework, Wordpress, Windows, HTML, CSS, Javascript, Bootstrap, Mysql, SOAP, GIT </p>"
             },
 
             "nacaodesign2": {
