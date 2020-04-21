@@ -1,30 +1,36 @@
 import React from 'react';
+import I18n from '../_services/i18n';
 
 export default function Resume() {
-  return (
+    const _i = I18n.getTranslater();
+
+    return (
         <div id="fh5co-resume" className="fh5co-bg-color">
             <div className="container">
                 <div className="row animate-box">
                     <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>Meu Currículo</h2>
+                        <h2>{_i.get("resume.h2")}</h2>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-12 col-md-offset-0">
                         <ul className="timeline">
                             <li className="timeline-heading text-center animate-box">
-                                <div><h3>Experiência de trabalho</h3></div>
+                                <div><h3>{_i.get("resume.jobs.h3")}</h3></div>
                             </li>
                             <li className="animate-box timeline-unverted">
                                 <div className="timeline-badge"><i className="icon-suitcase"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Analista programador</h3>
-                                        <span className="company">FDE - Ago/2019 - Atual</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.fde.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.fde.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Na FDE eu atuo como Analista programador com ênfase em Backend de aplicações Web em PHP e Mobile com React Native. Participo do projeto <strong>Integra</strong> (<a href="http://integra.fde.sp.gov.br" target="_blank"> http://integra.fde.sp.gov.br</a> ) que faz parte das ferramentas de gestão interna da FDE</p>
-                                        <p>Tecnologias: PHP, Laravel, Docker, Linux, React Native, NodeJs, HTML, CSS, Javascript, Bootstrap, Postgres, Sql Server, REST, LDAP, TFS, GIT</p>
+                                    {_i.getHTML("resume.jobs.fde.content")}
                                     </div>
                                 </div>
                             </li>
@@ -32,12 +38,15 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-suitcase"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Programador Fullstack Pleno</h3>
-                                        <span className="company">interaktiv - Nov/2018 - Jul/2019</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.interaktiv.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.interaktiv.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Na agência Interaktiv eu obtive contato com software para a área hospitalar como, por exemplo o sistema TASY da Philips utilizado pelo hospital Oswaldo Cruz. Nesta agência eu participei dos projetos: <strong>SABES ( <a href="https://sabes.org.br/" target="_blank">https://sabes.org.br</a> ), Toten de auto atemdimento, Avaliação de enfermagem e Avaliação pré-anestésica</strong> </p>
-                                        <p>Tecnologias: PHP, Laravel, Docker, Linux, Electron, NodeJs, HTML, CSS, Javascript, Bootstrap, Oracle 12C, Mysql, REST, JWT, TASY, GIT</p>
+                                    {_i.getHTML("resume.jobs.interaktiv.content")}
                                     </div>
                                 </div>
                             </li>
@@ -45,40 +54,15 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-suitcase"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Consultar de desenvolvimento web (Freelancer)</h3>
-                                        <span className="company">Knov - Mai/2018 - Nov/2018</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.knov.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.knov.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Junto a empresa Knov eu participei do projeto <strong>SigMe</strong> ( <a href="http://sigme.com.br" target="_blank"> http://sigme.com.br </a> ) que consiste em um sistema web de rastreamento de veículos escrito em PHP</p>
-                                        <p>Tecnologias: PHP, Laravel, Linux, VueJs, HTML, CSS, Javascript, Bootstrap, Mysql, Firebase, Socket IO, REST, JWT, GIT</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li className="timeline-inverted animate-box">
-                                <div className="timeline-badge"><i className="icon-suitcase"></i></div>
-                                <div className="timeline-panel">
-                                    <div className="timeline-heading">
-                                        <h3 className="timeline-title">Programador PHP Pleno</h3>
-                                        <span className="company">Psychemedics Brasil - Dez/2016 - Mai/2018</span>
-                                    </div>
-                                    <div className="timeline-body">
-                                        <p>A empresa Psychemedics é especialista em exames toxicológicos, desde a venda até a emissão de laudos médicos, nesta empresa eu atuei como desenvolvedor PHP com ênfase em backend nos projetos de <strong>Painel web de venda de exames em laboratórios (E-commerce B2B - <a href="https://painel.exametoxicologico.com.br/auth/login">https://painel.exametoxicologico.com.br/auth/login</a> ) , E-commerce B2C de exames ( <a href="https://www.exametoxicologico.com.br/" target="_blank" >https://www.exametoxicologico.com.br</a> ), Inside (Sistema de relatórios gerenciais)</strong> </p>
-                                        <p>Tecnologias: PHP, Laravel, Lumen, Wordpress, Docker, Linux, MongoDB, HTML, CSS, Javascript, Bootstrap, Mysql, REST, JWT, PHPUnit, Behat, ScriptCase, GIT</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li className="animate-box timeline-unverted">
-                                <div className="timeline-badge"><i className="icon-suitcase"></i></div>
-                                <div className="timeline-panel">
-                                    <div className="timeline-heading">
-                                        <h3 className="timeline-title">Programador PHP Pleno</h3>
-                                        <span className="company">Nação Design - Abr/2016 - Nov/2016</span>
-                                    </div>
-                                    <div className="timeline-body">
-                                        <p>Na agência Nação Design eu era responsável por desenvolver sites institucionais em PHP utilizando Laravel e Wordpress. Nesta agência pude participar de diversos projetos, mas o projeto que mais se destacou foi o site da ciclo ativista Renata Falzoni o <strong>Bike é Legal</strong> ( <a href="http://bikeelegal.com.br" target="_blank">http://bikeelegal.com.br</a> ) </p>
-                                        <p>Tecnologias: PHP, Laravel, Wordpress, MacOs X, HTML, CSS, Javascript, Bootstrap, Mysql, GIT, Digital Ocean, Server Pilot </p>
+                                    {_i.getHTML("resume.jobs.knov.content")}
                                     </div>
                                 </div>
                             </li>
@@ -87,12 +71,15 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-suitcase"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Programador PHP Junior</h3>
-                                        <span className="company">MDS Insure - Mar/2015 - Dez/2015</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.psychemedics.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.psychemedics.span")}  
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Na corretora de seguros MDS Insure eu trabalhei com programação e manutenção de sistemas em C# e PHP (Wordpress). O projeto que mais se destacou foi o portal interno desenvolvido para Apolices de seguros internacionais em .NET e também o projeto de Intranet utilizando Wordpress.</p>
-                                        <p>Tecnologias: PHP, C#, .NET MVC, Entity Framework, Wordpress, Windows, HTML, CSS, Javascript, Bootstrap, Mysql, SOAP, GIT</p>
+                                    {_i.getHTML("resume.jobs.psychemedics.content")}
                                     </div>
                                 </div>
                             </li>
@@ -101,29 +88,70 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-suitcase"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Programador PHP Junior</h3>
-                                        <span className="company">Nação Design - Abr/2013 - Dez/2014</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.nacaodesign1.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.nacaodesign1.span")}  
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>A empresa Nação Design é uma agência de marketing digital, nesta época eu era responsável por desenvolver sites institucionais em PHP puro, html, css e javascript. Participei de diversos projetos, mas o que mais me marcou foi o e-commerce <strong>E-animals</strong> ( <a href="https://eanimals.com.br/" target="_blank" >https://eanimals.com.br/</a> ) desenvolvido em Wordpress </p>
-                                        <p>Tecnologias: PHP, Laravel, Wordpress, MacOs X, HTML, CSS, Javascript, Bootstrap, Mysql, GIT, Digital Ocean, Server Pilot, cloudFlare </p>
+                                    {_i.getHTML("resume.jobs.nacaodesign1.content")}
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li className="timeline-inverted animate-box">
+                                <div className="timeline-badge"><i className="icon-suitcase"></i></div>
+                                <div className="timeline-panel">
+                                    <div className="timeline-heading">
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.mds.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.mds.span")}  
+                                        </span>
+                                    </div>
+                                    <div className="timeline-body">
+                                    {_i.getHTML("resume.jobs.mds.content")}
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li className="animate-box timeline-unverted">
+                                <div className="timeline-badge"><i className="icon-suitcase"></i></div>
+                                <div className="timeline-panel">
+                                    <div className="timeline-heading">
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.nacaodesign2.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.nacaodesign2.span")} 
+                                        </span>
+                                    </div>
+                                    <div className="timeline-body">
+                                    {_i.getHTML("resume.jobs.nacaodesign2.content")}
                                     </div>
                                 </div>
                             </li>
 
                             <br />
                             <li className="timeline-heading text-center animate-box">
-                                <div><h3>Formação Acadêmica</h3></div>
+                                <div><h3>{_i.get("resume.education.h3")}</h3></div>
                             </li>
                             <li className="timeline-inverted animate-box">
                                 <div className="timeline-badge"><i className="icon-graduation-cap"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Bacharel em Sistemas de Informação</h3>
-                                        <span className="company">FIAP - Jan/2015 - Dez/2018</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.education.fiap.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.education.fiap.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Na faculdade FIAP pude aprimorar meus conhecimentos em diversas tecnologias de ponta como JAVA, C#, Android, IOS, Xamarin, React e muitos outros. Além de participar de competições onde cheguei ao terceiro lugar junto a minha equipe chamada "ACME" com o projeto "ENIAC" </p>
+                                    {_i.getHTML("resume.education.fiap.content")}
                                     </div>
                                 </div>
                             </li>
@@ -131,11 +159,15 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-graduation-cap"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Tenólogo em sistemas para Intenet</h3>
-                                        <span className="company">Universidade Nove de Julho - Jan/2011 - Jul/2013</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.education.uninove.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.education.uninove.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Na Universidade Nove de Julho pude aprender conceitos relevântes de programação para internet.</p>
+                                    {_i.getHTML("resume.education.uninove.content")}
                                     </div>
                                 </div>
                             </li>
@@ -143,11 +175,15 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-graduation-cap"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Técnico em Informática</h3>
-                                        <span className="company">ETEC Dr hemilio Hernandez Aguilar - Jan/2009 - Jul/2010</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.education.etec.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.education.etec.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>Na ETEC foi onde meu interesse por programação surgiu e desde então norteia minha trajetória profissional</p>
+                                    {_i.getHTML("resume.education.etec.content")}
                                     </div>
                                 </div>
                             </li>
@@ -155,8 +191,12 @@ export default function Resume() {
                                 <div className="timeline-badge"><i className="icon-graduation-cap"></i></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">Ensino Médio</h3>
-                                        <span className="company">EE Mário Toledo de Moraes - Jan/2005 - Dez/2008</span>
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.education.college.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.education.college.span")}
+                                        </span>
                                     </div>
                                     <div className="timeline-body">
                                     </div>

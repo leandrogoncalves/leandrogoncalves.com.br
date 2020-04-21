@@ -1,0 +1,131 @@
+{
+    "about" : {
+        "title": "Sobre",
+        "name": "Nome",
+        "phone": "Telefone",
+        "mail": "E-mail",
+        "h2": "Olá, Seja bem vindo!",
+        "text": "Me chamo Leandro, estou há 8 anos no mercado atuando como desenvolvedor de sistemas web e mobile, comecei minha carreira em agências digitais programando sistemas para web. Trabalhei como Analista de Sistemas desenvolvendo aplicações na linguagem PHP, NodeJs e C# .NET e atualmente sou desenvolvedor FullStack na Fundação de Desenvolvimento da Educação de SP e nas horas livres sou um eterno estudante de tecnologia e aceito uns frelas :)",
+        "link": "Entre em contato comigo"
+    },
+
+    "resume" : {
+        "h2": "Meu Currículo",
+        "jobs": {
+            "h3": "Experiência de trabalho",
+            "fde": {
+                "h3":"Analista programador",
+                "span":"FDE - Ago/2019 - Atual",
+                "content":"<p> Na FDE eu atuo como Analista programador com ênfase em Backend de aplicações Web em PHP e Mobile com React Native. Participo do projeto <strong>Integra</strong> (<a href=\"http://integra.fde.sp.gov.br\" target=\"_blank\"> http://integra.fde.sp.gov.br</a> ) que faz parte das ferramentas de gestão interna da FDE</p> <p>Tecnologias: PHP, Laravel, Docker, Linux, React Native, NodeJs, HTML, CSS, Javascript, Bootstrap, Postgres, Sql Server, REST, LDAP, TFS, GIT</p>"
+            },
+
+            "interaktiv": {
+                "h3":"Programador Fullstack Pleno",
+                "span":"Interaktiv - Nov/2018 - Jul/2019",
+                "content":" <p>Na agência Interaktiv eu obtive contato com software para a área hospitalar como, por exemplo o sistema TASY da Philips utilizado pelo hospital Oswaldo Cruz. Nesta agência eu participei dos projetos: <strong>SABES ( <a href=\"https://sabes.org.br/\" target=\"_blank\">https://sabes.org.br</a> ), Toten de auto atemdimento, Avaliação de enfermagem e Avaliação pré-anestésica</strong> </p>  <p>Tecnologias: PHP, Laravel, Docker, Linux, Electron, NodeJs, HTML, CSS, Javascript, Bootstrap, Oracle 12C, Mysql, REST, JWT, TASY, GIT</p>"
+            },
+
+            "knov": {
+                "h3":">Consultor de desenvolvimento web (Freelancer)",
+                "span":"Knov - Mai/2018 - Nov/2018",
+                "content":"<p>Junto a empresa Knov eu participei do projeto <strong>SigMe</strong> (<a href=\"http://sigme.com.br\" target=\"_blank\"> http://sigme.com.br </a> ) que consiste em um sistema web de rastreamento de veículos escrito em PHP</p><p>Tecnologias: PHP, Laravel, Linux, VueJs, HTML, CSS, Javascript, Bootstrap, Mysql, Firebase, Socket IO, REST, JWT, GIT</p>"
+            },
+
+            "psychemedics": {
+                "h3":"Programador PHP Sênior",
+                "span":"Psychemedics Brasil - Dez/2016 - Mai/2018",
+                "content":"<p>A empresa Psychemedics é especialista em exames toxicológicos, desde a venda até a emissão de laudos médicos, nesta empresa eu atuei como desenvolvedor PHP com ênfase em backend nos projetos de <strong>Painel web de venda de exames em laboratórios (E-commerce B2B - <a href=\"https://painel.exametoxicologico.com.br/auth/login\">https://painel.exametoxicologico.com.br/auth/login</a> ) , E-commerce B2C de exames ( <a href=\"https://www.exametoxicologico.com.br/\" target=\"_blank\" >https://www.exametoxicologico.com.br</a> ), Inside (Sistema de relatórios gerenciais)</strong> </p><p>Tecnologias: PHP, Laravel, Lumen, Wordpress, Docker, Linux, MongoDB, HTML, CSS, Javascript, Bootstrap, Mysql, REST, JWT, PHPUnit, Behat, ScriptCase, GIT</p>"
+            },
+
+            "nacaodesign1": {
+                "h3":"Programador PHP Pleno",
+                "span":"Nação Design - Abr/2016 - Nov/2016",
+                "content":"<p>Na agência Nação Design eu era responsável por desenvolver sites institucionais em PHP utilizando Laravel e Wordpress. Nesta agência pude participar de diversos projetos, mas o projeto que mais se destacou foi o site da ciclo ativista Renata Falzoni o <strong>Bike é Legal</strong> ( <a href=\"http://bikeelegal.com.br\" target=\"_blank\">http://bikeelegal.com.br</a> ) </p><p>Tecnologias: PHP, Laravel, Wordpress, MacOs X, HTML, CSS, Javascript, Bootstrap, Mysql, GIT, Digital Ocean, Server Pilot </p>"
+            },
+
+            "mds": {
+                "h3":"Programador PHP Junior",
+                "span":"MDS Insure - Mar/2015 - Dez/2015",
+                "content":"<p>Na corretora de seguros MDS Insure eu trabalhei com programação e manutenção de sistemas em C# e PHP (Wordpress). O projeto que mais se destacou foi o portal interno desenvolvido para Apolices de seguros internacionais em .NET e também o projeto de Intranet utilizando Wordpress.</p><p>Tecnologias: PHP, C#, .NET MVC, Entity Framework, Wordpress, Windows, HTML, CSS, Javascript, Bootstrap, Mysql, SOAP, GIT</p>"
+            },
+
+            "nacaodesign2": {
+                "h3":"Programador PHP Junior",
+                "span":"Nação Design - Abr/2013 - Dez/2014",
+                "content":" <p>A empresa Nação Design é uma agência de marketing digital, nesta época eu era responsável por desenvolver sites institucionais em PHP puro, html, css e javascript. Participei de diversos projetos, mas o que mais me marcou foi o e-commerce <strong>E-animals</strong> ( <a href=\"https://eanimals.com.br/\" target=\"_blank\" >https://eanimals.com.br/</a> ) desenvolvido em Wordpress </p><p>Tecnologias: PHP, Laravel, Wordpress, MacOs X, HTML, CSS, Javascript, Bootstrap, Mysql, GIT, Digital Ocean, Server Pilot, cloudFlare </p>"
+            }
+
+        },
+        "education": {
+            "h3": "Formação Acadêmica",
+            "fiap": {
+                "h3":"Bacharel em Sistemas de Informação",
+                "span":"FIAP - Jan/2015 - Dez/2018",
+                "content":"<p>Na faculdade FIAP pude aprimorar meus conhecimentos em diversas tecnologias de ponta como PHP, JAVA, C#, Android, IOS, Xamarin, React e muitos outros. Além de participar de competições onde cheguei ao terceiro lugar junto a minha equipe chamada \"ACME\" com o projeto \"ENIAC\" </p>"
+            },
+            "uninove": {
+                "h3":"Tenólogo em sistemas para Intenet",
+                "span":"Universidade Nove de Julho - Jan/2011 - Jul/2013",
+                "content":"<p>Na Universidade Nove de Julho pude aprender conceitos relevântes de programação para internet.</p>"
+            },
+            "etec": {
+                "h3":"Técnico em Informática",
+                "span":"ETEC Dr hemilio Hernandez Aguilar - Jan/2009 - Jul/2010",
+                "content":" <p>Na ETEC foi onde meu interesse por programação surgiu e desde então norteia minha trajetória profissional</p>"
+            },
+            "college": {
+                "h3":"Ensino Médio",
+                "span":"EE Mário Toledo de Moraes - Jan/2005 - Dez/2008",
+                "content":""
+            }
+        }
+    },
+
+    "features": {
+        "h2": "Meus Serviços",
+        "services": {
+            "one": {
+                "h3": "Desenvolvimento WEB",
+                "p": "Criação de soluções web inteligentes para empresas de todos os tamanhos e segmentos"
+            },
+            "two": {
+                "h3": "Desenvolvimento Mobile",
+                "p": "Criação de aplicativos móveis intuitivos e multi plataforma"
+            },
+            "three": {
+                "h3": "Web Marketing",
+                "p": "Posicionamento, campanhanhas, otimização e divulgação de sites"
+            },
+            "four": {
+                "h3": "Analytics",
+                "p": "Criação e administração de métricas de SEO e Analytics para alavancagem da marca"
+            },
+            "five": {
+                "h3": "Branding",
+                "p": "Criação de indentidade visual web e gráfica em geral"
+            },
+            "six": {
+                "h3": "Suporte",
+                "p": "Menutenção e otimização de sites e sistemas Web"
+            }
+        }
+    },
+
+    "skills": {
+        "h2": "Habilidades"
+    },
+
+    "contact": {
+        "h2": "Entre em contato comigo!",
+        "p": "Preencha o formulário abaixo e me envie uma mensagem que em breve entrarei em contato com você :)",
+        "a": "Contato",
+        "h3": "Contato",
+        "form": {
+            "name": "Nome",
+            "email": "E-mail",
+            "subject": "Assunto",
+            "message": "Como posso te ajudar?",
+            "send": "Enviar"
+        }
+    }
+}

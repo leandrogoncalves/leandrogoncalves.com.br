@@ -2,21 +2,21 @@ import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Recaptcha from 'react-google-invisible-recaptcha';
 import api from '../_services/api';
+import I18n from '../_services/i18n';
+
 const dotenv = require('dotenv');
 dotenv.config();
 const baseURL = process.env.BACKEND_URL || 'https://leandrogoncalves-backend.herokuapp.com';
 
 export default function Contact() {
+	const _i = I18n.getTranslater();
+
 	let recaptchaInstance;
 	
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [subject, setSubject] = useState('');
 	const [message, setMessage] = useState('');
-	const [canSend, setCanSend] = useState(false);
-
-	  
-
 
 	function clearForm() {
 		setName('');
@@ -103,9 +103,9 @@ export default function Contact() {
 			<div className="container">
 				<div className="row animate-box">
 					<div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Entre em contato comigo!</h2>
-						<p>Preencha o formulário abaixo e me envie uma mensagem que em breve entrarei em contato com você :)</p>
-						<AnchorLink href='#fh5co-consult' className="btn btn-default btn-lg">Contato</AnchorLink>
+						<h2>{_i.get("contact.h2")}</h2>
+						<p>{_i.get("contact.p")}</p>
+						<AnchorLink href='#fh5co-consult' className="btn btn-default btn-lg">{_i.get("contact.a")}</AnchorLink>
 					</div>
 				</div>
 			</div>
@@ -116,7 +116,7 @@ export default function Contact() {
 				<div className="overlay"></div>
 			</div>
 			<div className="choose animate-box">
-				<h2>Contato</h2>
+				<h3>Contato</h3>
 				<form action="#" onSubmit={submit}>
 					<div className="row form-group">
 						<div className="col-md-6">
@@ -124,7 +124,7 @@ export default function Contact() {
 							value={name}
 							onChange={e=>setName(e.target.value)}
 							required
-							type="text" id="fname" className="form-control" placeholder="Nome" />
+							type="text" id="fname" className="form-control" placeholder={_i.get("contact.form.name")} />
 						</div>
 					</div>
 
@@ -134,7 +134,7 @@ export default function Contact() {
 							value={email}
 							onChange={e=>setEmail(e.target.value)}
 							required
-							type="email" id="email" className="form-control" placeholder="E-mail" />
+							type="email" id="email" className="form-control" placeholder={_i.get("contact.form.email")} />
 						</div>
 					</div>
 
@@ -144,7 +144,7 @@ export default function Contact() {
 							value={subject}
 							onChange={e=>setSubject(e.target.value)}
 							required
-							type="text" id="subject" className="form-control" placeholder="Assunto"/>
+							type="text" id="subject" className="form-control" placeholder={_i.get("contact.form.subject")}/>
 						</div>
 					</div>
 
@@ -154,12 +154,12 @@ export default function Contact() {
 							value={message}
 							onChange={e=>setMessage(e.target.value)}
 							required
-							name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Como posso te ajudar?"></textarea>
+							name="message" id="message" cols="30" rows="10" className="form-control" placeholder={_i.get("contact.form.message")}></textarea>
 						</div>
 					</div>
 
 					<div className="form-group">
-						<input type="submit" value="Enviar" className="btn btn-primary" />
+						<input type="submit" value={_i.get("contact.form.send")} className="btn btn-primary" />
 					</div>
 
 					<Recaptcha
