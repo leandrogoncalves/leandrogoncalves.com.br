@@ -6,7 +6,7 @@ import I18n from '../_services/i18n';
 
 const dotenv = require('dotenv');
 dotenv.config();
-const baseURL = process.env.BACKEND_URL || 'http://my-backend.app.zappbot.net';
+const baseURL = process.env.BACKEND_URL || 'https://backend.leandrogoncalves.com.br';
 
 export default function Contact() {
 	const _i = I18n.getTranslater();
