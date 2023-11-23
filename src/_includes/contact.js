@@ -81,7 +81,6 @@ export default function Contact() {
 		try{
 			api.post(baseURL+'/email/send',mailOptions)
 				.then((res)=>{
-					console.log(res);
 					clearForm();
 					alert('Email enviado com sucesso');
 				}).catch((err)=>{
