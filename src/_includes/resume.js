@@ -18,6 +18,22 @@ export default function Resume() {
                             <li className="timeline-heading text-center animate-box">
                                 <div><h3>{_i.get("resume.jobs.h3")}</h3></div>
                             </li>
+                            <li className="animate-box timeline-inverted">
+                                <div className="timeline-badge"><i className="icon-suitcase"></i></div>
+                                <div className="timeline-panel">
+                                    <div className="timeline-heading">
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.jobs.picpay.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.jobs.picpay.span")}
+                                        </span>
+                                    </div>
+                                    <div className="timeline-body">
+                                    {_i.getHTML("resume.jobs.picpay.content")}
+                                    </div>
+                                </div>
+                            </li>
                             <li className="animate-box timeline-unverted">
                                 <div className="timeline-badge"><i className="icon-suitcase"></i></div>
                                 <div className="timeline-panel">

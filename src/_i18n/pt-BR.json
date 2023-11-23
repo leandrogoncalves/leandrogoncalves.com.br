@@ -13,9 +13,16 @@
         "h2": "Meu Currículo",
         "jobs": {
             "h3": "Experiência de trabalho",
+
+            "picpay": {
+                "h3":"Analista programador Pleno",
+                "span":"PicPay - Jun/2021 - Atual",
+                "content":"<p>No PicPay atuei na equipe de atendimento realizando integrações de software através da Rest API. Criei automação de processos através de rotinas de software sob demanda e também criei ferramentas para otimizar o atendimento, gerando significativa economia de custos.<br><br>Atualmente trabalho na equipe de chatbot onde atuo como desenvolvedor backend melhorando processos de atendimento automatizados e gerando uma grande economia de custos de atendimento.</p>"
+            },    
+
             "fde": {
-                "h3":"Analista programador",
-                "span":"FDE - Ago/2019 - Atual",
+                "h3":"Analista programador Pleno",
+                "span":"FDE - Ago/2019 - Jun/2021",
                 "content":"<p> Na FDE eu atuo como Analista programador com ênfase em Backend de aplicações Web em PHP e Mobile com React Native. Participo do projeto <strong>Integra</strong> (<a href=\"http://integra.fde.sp.gov.br\" target=\"_blank\"> http://integra.fde.sp.gov.br</a> ) que faz parte das ferramentas de gestão interna da FDE</p> <p>Tecnologias: PHP, Laravel, Docker, Linux, React Native, NodeJs, HTML, CSS, Javascript, Bootstrap, Postgres, Sql Server, REST, LDAP, TFS, GIT</p>"
             },
 

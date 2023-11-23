@@ -31,13 +31,13 @@ export default function Skills() {
                     </div>
 
                     <div className="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div className="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+                        <div className="chart" data-percent="95"><span><strong>HTML5/CSS3</strong>95%</span></div>
                     </div>
                     <div className="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div className="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+                        <div className="chart" data-percent="93"><span><strong>Chatbot</strong>93%</span></div>
                     </div>
                     <div className="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div className="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
+                        <div className="chart" data-percent="90"><span><strong>Python</strong>90%</span></div>
                     </div>
                     <div className="col-md-3 col-sm-6 col-xs-12 text-center">
                         <div className="chart" data-percent="88"><span><strong>NodeJs</strong>80%</span></div>

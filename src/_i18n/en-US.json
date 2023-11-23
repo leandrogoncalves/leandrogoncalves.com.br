@@ -13,9 +13,16 @@
         "h2": "My Resume",
         "jobs": {
             "h3": "Job experience",
+
+            "picpay": {
+                "h3":"Systems Analist and Developer",
+                "span":"PicPay - 2021-06 - Current",
+                "content":"<p> At PicPay I worked in the customer service team performing software integrations through Rest API. I created process automation through on-demand software routines and also created tools to optimize service, generating significant cost savings.<br><br>I currently work in the chatbot squad where I work as a backend developer improving automated service processes and generating a large amount of service cost savings.</p>"
+            },
+
             "fde": {
                 "h3":"Systems Analist and Developer",
-                "span":"FDE - 2019-08 - Current",
+                "span":"FDE - 2019-08 - 2021-06",
                 "content":"<p> The FDE is a foundation linked to education mistery education of the São Paulo state. At FDE I have been working with development and architecture for web in general mainly in back-end development of web project “Integra”, which is part of FDE’s internal management tools. (<a href='http://integra.fde.sp.gov.br' target='_blank'> http://integra.fde.sp.gov.br </a>) </p> <p> Technologies: PHP, Laravel, Docker, Linux, React Native, NodeJs, HTML, CSS, Javascript, Bootstrap, Postgres, Sql Server, REST, LDAP, TFS, GIT </p>"
             },
 
