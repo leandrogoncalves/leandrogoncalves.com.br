@@ -19,6 +19,14 @@ export default function Header() {
                 </div>
             </div>
         </div>
+        <div id='flags'>
+            <a href='?lang=pt-BR'>
+                <img src='/assets/images/br.png' width={25} height={15} alt='pt-BR' />
+            </a>
+            <a href='?lang=en-US'>
+                <img src='/assets/images/en.png' width={25} height={15} alt='en-US' />
+            </a>
+        </div>
     </header>
   );
 }

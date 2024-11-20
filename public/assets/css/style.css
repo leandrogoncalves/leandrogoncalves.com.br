@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .profile-thumb{
-  background-image: url('../images/eu.jpeg');
+  background-image: url('../images/me.jpg');
 }
 
 #fh5co-header .display-tc .profile-thumb,
@@ -1302,3 +1302,19 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#flags {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 65px;
+  height: 20px;
+  z-index: 999999;
+}
+
+
+#flags a{
+  margin: 3px;
+  padding: 0;
+  height: 15px !important;
+}

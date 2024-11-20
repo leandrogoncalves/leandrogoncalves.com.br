@@ -5,7 +5,9 @@
         "phone": "Telefone",
         "mail": "E-mail",
         "h2": "Olá, Seja bem vindo!",
-        "text": "Me chamo Leandro, estou há 8 anos no mercado atuando como desenvolvedor de sistemas web e mobile, comecei minha carreira em agências digitais programando sistemas para web. Trabalhei como Analista de Sistemas desenvolvendo aplicações na linguagem PHP, NodeJs e C# .NET e atualmente sou desenvolvedor FullStack na Fundação de Desenvolvimento da Educação de SP e nas horas livres sou um eterno estudante de tecnologia e aceito uns frelas :)",
+        "text": "Sou especialista em tecnologia da informação, com mais de 13 anos de experiência. Sou especialista em desenvolvimento Back-End com forte conhecimento em PHP, Python, JavaScript e mobile. Tenho inspiração em resolver problemas complexos de forma eficiente e colaborativa, tenho experiência em desenvolvimento de aplicações web e mobile.",
+        "text1": "Na minha carreira até agora pude entregar muitos projetos mas um deles que tive o prazer de participar foi uma solução para o Hospital Oswaldo Cruz em São Paulo onde conseguimos gerar uma grande economia financeira através de uma solução facilitadora para o setor de enfermagem. Outro grande projeto que pude participar foi o e-commerce interno do Ministério da Educação de São Paulo onde pudemos implementar um aplicativo para que escolas públicas pudessem comprar material escolar com facilidade. ",
+        "text2": "Possuo fortes habilidades com níveis operacionais, trabalho em equipe, proatividade e capacidade de executar diversas tarefas, entre outras características possuo capacidade de liderança, elaboração de arquitetura de soluções e gerenciamento de projetos. Adoro trabalhar em ambientes desafiadores que possam propor crescimento e aprendizado.",
         "link": "Entre em contato comigo"
     },
 
@@ -15,9 +17,9 @@
             "h3": "Experiência de trabalho",
 
             "picpay": {
-                "h3":"Analista programador Pleno",
+                "h3":"Engenheiro de software Pleno",
                 "span":"PicPay - Jun/2021 - Atual",
-                "content":"<p>No PicPay atuei na equipe de atendimento realizando integrações de software através da Rest API. Criei automação de processos através de rotinas de software sob demanda e também criei ferramentas para otimizar o atendimento, gerando significativa economia de custos.<br><br>Atualmente trabalho na equipe de chatbot onde atuo como desenvolvedor backend melhorando processos de atendimento automatizados e gerando uma grande economia de custos de atendimento.</p>"
+                "content":"<p>No PicPay trabalhei na squad de auto-atendimento realizando integrações de software através APIs Rest. Atuei no processo de automação de tarefas através rotinas de software sob demanda e também criei ferramentas para otimizar o auto-atendimento, gerando significativa economia de custos.</p><p>Eu atualmente trabalho com auto-atendimento via chatbot utilizando o LLM do ChatGPT onde pude trabalhar em integrações importantes que aumentaram o NPS do atendimento do PicPay e geraram uma grande economia financeira com o atendimento humano</p><p>Resultados alcançados:<br><br>* +40% de retenção YoY.<br>* +100% de resolutividade YTD.<br>* +200% de satisfação do usuário (NPS).<br>* +R$2MM de custo evitado por mês.<br>* +500k MAU.</p>"
             },    
 
             "fde": {
@@ -39,7 +41,7 @@
             },
 
             "psychemedics": {
-                "h3":"Programador PHP Sênior",
+                "h3":"Programador PHP Pleno",
                 "span":"Psychemedics Brasil - Dez/2016 - Mai/2018",
                 "content":"<p>A empresa Psychemedics é especialista em exames toxicológicos, desde a venda até a emissão de laudos médicos, nesta empresa eu atuei como desenvolvedor PHP com ênfase em backend nos projetos de <strong>Painel web de venda de exames em laboratórios (E-commerce B2B - <a href=\"https://painel.exametoxicologico.com.br/auth/login\">https://painel.exametoxicologico.com.br/auth/login</a> ) , E-commerce B2C de exames ( <a href=\"https://www.exametoxicologico.com.br/\" target=\"_blank\" >https://www.exametoxicologico.com.br</a> ), Inside (Sistema de relatórios gerenciais)</strong> </p><p>Tecnologias: PHP, Laravel, Lumen, Wordpress, Docker, Linux, MongoDB, HTML, CSS, Javascript, Bootstrap, Mysql, REST, JWT, PHPUnit, Behat, ScriptCase, GIT</p>"
             },
@@ -65,6 +67,11 @@
         },
         "education": {
             "h3": "Formação Acadêmica",
+            "impacta": {
+                "h3":"MBA em Arquitetura de Soluções digitais",
+                "span":"Faculdade Impacta - Jan/2015 - Dez/2018",
+                "content":"<p>Na faculdade Impacta pude aprender sobre Arquitetura de Soluções e suas aplicações em Dados, Serviços, Canais Digitais, Devops, SER (engenharia de confiabilidade de site & Cloud Computing), Cibersegurança, Tech Trends e Soft skills entre outros.</p>"
+            },
             "fiap": {
                 "h3":"Bacharel em Sistemas de Informação",
                 "span":"FIAP - Jan/2015 - Dez/2018",

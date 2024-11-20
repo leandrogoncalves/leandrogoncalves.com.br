@@ -35,8 +35,10 @@ export default function Header() {
 					</div>
 					<div className="col-md-6">
 						<h2>{_i.get("about.h2")}</h2>
-						<p>{_i.get("about.text")}  
-							  &nbsp;<AnchorLink href='#fh5co-consult'>
+						<p>{_i.get("about.text")}</p>
+						<p>{_i.get("about.text1")}</p>
+						<p>{_i.get("about.text2")}</p>
+						<p>&nbsp;<AnchorLink href='#fh5co-consult'>
 							  {_i.get("about.link")} </AnchorLink>
 						</p>
 					

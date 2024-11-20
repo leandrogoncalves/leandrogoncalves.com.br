@@ -5,7 +5,9 @@
         "phone": "Phone",
         "mail": "Mail",
         "h2": "Hello, Welcome!",
-        "text": "My name is Leandro, i have been working with development and architecture for web in general approximately 8 years. My specialty is the back-end development with strong inclination to PHP, javascript and mobile too. I'm Graduated in Internet Systems by FIAP and I had technicial degree in Internet Systems. I started my career in digital agencies programming systems for the web. I worked as a Systems Analyst developing applications in PHP, NodeJs and C # .NET and I am currently a FullStack developer at the Education Development Foundation of SP and in my free time I am an eternal student of technology and I accept some frelas :)",
+        "text": "I am a specialist in Information Technology, with over 13 years of experience. My speciality is in Back-End Development with strong know-how in PHP, Python, JavaScript, and Mobile. I'm inspired by solving complex problems efficiently and collaboratively, I have experience developing web and mobile applications.",
+        "text1": "In my carrier until now I could deliver a lot projects but one of them that I had the pleasure of participating was a solution for the Hospital Oswaldo Cruz in São Paulo where we were able to generate a big finance economy. Other big project that I could participate was the internal e-commerce in the Education Ministery of São Paulo where we could implement app to public schools be able to buy school supplies easily.",
+        "text2": "I have strong skills with operational levels, teamwork, proactivity, and the ability to perform different tasks, among other characteristics I have leadership skills and project manager. I love to work in challenge environment that can propose growing and learning.",
         "link": "Contact me"
     },
 
@@ -15,7 +17,7 @@
             "h3": "Job experience",
 
             "picpay": {
-                "h3":"Systems Analist and Developer",
+                "h3":"Software engineer",
                 "span":"PicPay - 2021-06 - Current",
                 "content":"<p> At PicPay I worked in the customer service team performing software integrations through Rest API. I created process automation through on-demand software routines and also created tools to optimize service, generating significant cost savings.<br><br>I currently work in the chatbot squad where I work as a backend developer improving automated service processes and generating a large amount of service cost savings.</p>"
             },
@@ -65,6 +67,11 @@
         },
         "education": {
             "h3": "Education",
+            "impacta": {
+                "h3":"MBA Digital Solution Architecture",
+                "span":"College Impacta - Jan/2015 - Dez/2018",
+                "content":"<p>At Impacta College I was able to learn about Solutions Architecture and its applications in Data, Services, Digital Channels, Devops, SER (Site Reliability Engineering & Cloud Computing), Cybersecurity, Technological Trends and Soft Skills among others.</p>"
+            },
             "fiap": {
                 "h3":"Bachelor’s degree, System of Information",
                 "span":"FIAP - 2015-01 - 2018-12",
