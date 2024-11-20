@@ -62,6 +62,7 @@ export default function Contact() {
 		let mailOptions = {
 		from: 'no-reply@leandrogoncalves.com.br',
 		to: 'contato.leandrogoncalves@gmail.com',
+		name: name,
 		subject: subject,
 		text: `
 			Nome: ${name}
