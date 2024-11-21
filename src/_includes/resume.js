@@ -155,6 +155,22 @@ export default function Resume() {
                             <li className="timeline-heading text-center animate-box">
                                 <div><h3>{_i.get("resume.education.h3")}</h3></div>
                             </li>
+                            <li className="timeline-unverted animate-box">
+                                <div className="timeline-badge"><i className="icon-graduation-cap"></i></div>
+                                <div className="timeline-panel">
+                                    <div className="timeline-heading">
+                                        <h3 className="timeline-title">
+                                        {_i.get("resume.education.impacta.h3")}
+                                        </h3>
+                                        <span className="company">
+                                        {_i.get("resume.education.impacta.span")}
+                                        </span>
+                                    </div>
+                                    <div className="timeline-body">
+                                    {_i.getHTML("resume.education.impacta.content")}
+                                    </div>
+                                </div>
+                            </li>
                             <li className="timeline-inverted animate-box">
                                 <div className="timeline-badge"><i className="icon-graduation-cap"></i></div>
                                 <div className="timeline-panel">
