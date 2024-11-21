@@ -77,8 +77,6 @@ export default function Contact() {
 			<strong> Mensagem:</strong> ${message} <br>
 		`
 		};
-
-		console.error("sending mail.... ", mailOptions);
 		
 		try{
 			api.post(baseURL+'/email/send',mailOptions)
