@@ -78,6 +78,7 @@ export default function Contact() {
 		`
 		};
 
+		console.error("sending mail.... ", mailOptions);
 		
 		try{
 			api.post(baseURL+'/email/send',mailOptions)
@@ -124,7 +125,7 @@ export default function Contact() {
 							value={name}
 							onChange={e=>setName(e.target.value)}
 							required
-							type="text" id="fname" className="form-control" placeholder={_i.get("contact.form.name")} />
+							type="text" id="name" className="form-control" placeholder={_i.get("contact.form.name")} />
 						</div>
 					</div>
 
