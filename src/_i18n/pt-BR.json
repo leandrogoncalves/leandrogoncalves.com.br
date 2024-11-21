@@ -130,6 +130,7 @@
     },
 
     "contact": {
+        "title": "Contato",
         "h2": "Entre em contato comigo!",
         "p": "Preencha o formulário abaixo e me envie uma mensagem que em breve entrarei em contato com você :)",
         "a": "Contato",

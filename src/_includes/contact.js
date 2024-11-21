@@ -115,7 +115,7 @@ export default function Contact() {
 				<div className="overlay"></div>
 			</div>
 			<div className="choose animate-box">
-				<h3>Contato</h3>
+				<h3>{_i.get("contact.title")}</h3>
 				<form action="#" onSubmit={submit}>
 					<div className="row form-group">
 						<div className="col-md-6">

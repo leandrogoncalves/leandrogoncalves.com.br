@@ -130,13 +130,14 @@
     },
 
     "contact": {
+        "title": "Contact",
         "h2": "Contact me",
         "p": "Fill out the form below and send me a message that I will contact you soon :)",
         "a": "Contact",
         "h3": "Contact",
         "form": {
             "name": "Name",
-            "email": "Email",
+            "email": "Mail",
             "subject": "Subject",
             "message": "Can i help you?",
             "send": "Send"
